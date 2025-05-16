@@ -4,6 +4,7 @@ import hashlib
 import os
 import random
 
+# test
 app = Flask(__name__)
 app.secret_key = os.urandom(16)
 print("Test")
